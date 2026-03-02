@@ -10,11 +10,11 @@ public class MerchantPortalMenuByLanguage {
 
     private MerchantPortalMenuByLanguage() {}
 
-    public final static Map<Language, List<String>> getMenus = Map.of(
+    public static Map<Language, List<String>> getMenus = Map.of(
 
     );
 
-    public final static String getMenuByLanguage(Language language, EFinanceNavigationBarMenu sidePanelItem) {
+    public static String getMenuByLanguage(Language language, EFinanceNavigationBarMenu sidePanelItem) {
         throw new UnsupportedOperationException("Not yet implemented");
     }
 }

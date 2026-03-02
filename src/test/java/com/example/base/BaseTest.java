@@ -96,17 +96,6 @@ public class BaseTest {
         }
     }
 
-//    @AfterSuite(alwaysRun = true)
-//    public void afterSuite() {
-//        try {
-//            ReportManager.flush();
-//        } finally {
-//            if (testContext != null) {
-//                testContext.close();
-//            }
-//        }
-//    }
-
     // =========================
     //   Helpers
     // =========================

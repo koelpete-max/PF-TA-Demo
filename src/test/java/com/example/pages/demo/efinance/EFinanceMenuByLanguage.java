@@ -9,7 +9,7 @@ public class EFinanceMenuByLanguage {
 
     private EFinanceMenuByLanguage() {}
 
-    public final static Map<Language, List<String>> getMenus = Map.of(
+    public static Map<Language, List<String>> getMenus = Map.of(
             Language.DE, List.of(
                     "Home", "Vermögen", "Zahlungen", "EZAG", "Dokumente", "Versicherungen", "Produkte"),
             Language.EN, List.of(
@@ -20,7 +20,7 @@ public class EFinanceMenuByLanguage {
                     "Home", "Fortune", "Paiements", "OPAE", "Documents", "Assurances", "Produits")
     );
 
-    public final static String getMenuByLanguage(Language language, EFinanceNavigationBarMenu sidePanelItem) {
+    public static String getMenuByLanguage(Language language, EFinanceNavigationBarMenu sidePanelItem) {
 
         try {
             var index = getMenus.get(Language.EN).indexOf(sidePanelItem.toString());

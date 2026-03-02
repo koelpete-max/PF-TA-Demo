@@ -62,13 +62,13 @@ public class EFinancePageBasicTest extends BaseTest {
     public Object[][] menuData() {
 
         return new Object[][] {
-//                { EFinanceNavigationBarMenu.HOME },
+                { EFinanceNavigationBarMenu.HOME },
                 { EFinanceNavigationBarMenu.ASSETS },
-//                { EFinanceNavigationBarMenu.PAYMENTS },
-//                { EFinanceNavigationBarMenu.EPO },
-//                { EFinanceNavigationBarMenu.DOCUMENTS },
+                { EFinanceNavigationBarMenu.PAYMENTS },
+                { EFinanceNavigationBarMenu.EPO },
+                { EFinanceNavigationBarMenu.DOCUMENTS },
                 { EFinanceNavigationBarMenu.INSURANCE },
-//                { EFinanceNavigationBarMenu.PRODUCTS }
+                { EFinanceNavigationBarMenu.PRODUCTS }
         };
     }
 
