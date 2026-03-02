@@ -1,0 +1,14 @@
+{
+  "accountData": [
+    {
+      "accountOwner": "Bernasconi Maria",
+      "ibanNumber": "CH88 0900 0000 9249 8047 4",
+      "balance": "CHF 6'000.00+"
+    },
+    {
+      "accountOwner": "Maria Bernasconi",
+      "ibanNumber": "CH93 0900 0000 2546 6663 1",
+      "balance": "CHF 54'654.00+"
+    }
+  ]
+}

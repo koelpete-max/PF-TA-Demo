@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PlaywrightSuite" parallel="classes" thread-count="3">
+    <parameter name="testng.singleThreaded" value="false"/>
+    <test name="UI Tests">
+        <classes>
+            <class name="com.example.tests.EFinancePageBasicTest"/>
+            <class name="com.example.tests.EFinanceHomeTransactionOverviewTest" />
+        </classes>
+    </test>
+</suite>

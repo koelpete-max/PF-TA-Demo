@@ -1,0 +1,56 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/workspace.xml
+*.iws
+*.iml
+*.ipr
+test-output/
+test-results/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+*.zip
+*.msi
+*.exe
+*.mp4
+*.mkv
+*.dmg
+*.pkg
+*.iso
+jdk-*.*
+/src/test/resources/config/test-account-data3.json
+
+# Allure output
+allure-results/
